@@ -1,0 +1,3164 @@
+[
+ {
+  "place_id": 135106,
+  "name": "El Rincon de San Francisco",
+  "lat": 22.1497088,
+  "lng": -100.9760928,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.4,
+  "num_ratings": 10,
+  "schedule": {
+   "Mon": [
+    18,
+    23
+   ],
+   "Tue": [
+    18,
+    23
+   ],
+   "Wed": [
+    18,
+    23
+   ],
+   "Thu": [
+    18,
+    23
+   ],
+   "Fri": [
+    18,
+    23
+   ],
+   "Sat": [
+    18,
+    23
+   ],
+   "Sun": [
+    18,
+    21
+   ]
+  }
+ },
+ {
+  "place_id": 135040,
+  "name": "Restaurant los Compadres",
+  "lat": 22.135617,
+  "lng": -100.969709,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 1.5,
+  "num_ratings": 4,
+  "schedule": {
+   "Mon": [
+    8,
+    23
+   ],
+   "Tue": [
+    8,
+    23
+   ],
+   "Wed": [
+    8,
+    23
+   ],
+   "Thu": [
+    8,
+    23
+   ],
+   "Fri": [
+    8,
+    23
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    8,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135082,
+  "name": "la Estrella de Dimas",
+  "lat": 22.151448,
+  "lng": -100.915099,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.56,
+  "num_ratings": 9,
+  "schedule": {
+   "Mon": [
+    10,
+    18
+   ],
+   "Tue": [
+    10,
+    18
+   ],
+   "Wed": [
+    10,
+    18
+   ],
+   "Thu": [
+    10,
+    18
+   ],
+   "Fri": [
+    10,
+    18
+   ],
+   "Sat": [
+    10,
+    18
+   ],
+   "Sun": [
+    10,
+    18
+   ]
+  }
+ },
+ {
+  "place_id": 135070,
+  "name": "Restaurante 75",
+  "lat": 22.152918,
+  "lng": -100.915164,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.75,
+  "num_ratings": 8,
+  "schedule": {
+   "Mon": [
+    7,
+    23
+   ],
+   "Tue": [
+    7,
+    23
+   ],
+   "Wed": [
+    7,
+    23
+   ],
+   "Thu": [
+    7,
+    23
+   ],
+   "Fri": [
+    7,
+    23
+   ],
+   "Sat": [
+    7,
+    23
+   ],
+   "Sun": [
+    7,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135069,
+  "name": "Abondance Restaurante Bar",
+  "lat": 22.140129,
+  "lng": -100.944872,
+  "cuisines": [
+   "Bar"
+  ],
+  "price_level": 1,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.0,
+  "num_ratings": 12,
+  "schedule": {
+   "Mon": [
+    9,
+    23
+   ],
+   "Tue": [
+    9,
+    23
+   ],
+   "Wed": [
+    9,
+    23
+   ],
+   "Thu": [
+    9,
+    23
+   ],
+   "Fri": [
+    9,
+    23
+   ],
+   "Sat": [
+    9,
+    23
+   ],
+   "Sun": [
+    9,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135065,
+  "name": "El angel Restaurante",
+  "lat": 22.14958,
+  "lng": -100.999557,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.22,
+  "num_ratings": 9,
+  "schedule": {
+   "Mon": [
+    14,
+    23
+   ],
+   "Tue": [
+    14,
+    23
+   ],
+   "Wed": [
+    14,
+    23
+   ],
+   "Thu": [
+    14,
+    23
+   ],
+   "Fri": [
+    14,
+    23
+   ],
+   "Sat": [
+    14,
+    23
+   ],
+   "Sun": [
+    14,
+    18
+   ]
+  }
+ },
+ {
+  "place_id": 135076,
+  "name": "Restaurante Pueblo Bonito",
+  "lat": 22.181017,
+  "lng": -100.973614,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.62,
+  "num_ratings": 13,
+  "schedule": {
+   "Mon": [
+    12,
+    23
+   ],
+   "Tue": [
+    12,
+    23
+   ],
+   "Wed": [
+    12,
+    23
+   ],
+   "Thu": [
+    12,
+    23
+   ],
+   "Fri": [
+    12,
+    23
+   ],
+   "Sat": [
+    12,
+    23
+   ],
+   "Sun": [
+    12,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135086,
+  "name": "Mcdonalds Parque Tangamanga",
+  "lat": 22.141421,
+  "lng": -101.013955,
+  "cuisines": [
+   "Burgers",
+   "Fast_Food"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": true,
+  "rating": 2.6,
+  "num_ratings": 10,
+  "schedule": {
+   "Mon": [
+    8,
+    23
+   ],
+   "Tue": [
+    8,
+    23
+   ],
+   "Wed": [
+    8,
+    23
+   ],
+   "Thu": [
+    8,
+    23
+   ],
+   "Fri": [
+    8,
+    23
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    8,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132870,
+  "name": "Tortas y hamburguesas el gordo",
+  "lat": 22.1430781,
+  "lng": -100.9354788,
+  "cuisines": [
+   "Burgers"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.2,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    10,
+    23
+   ],
+   "Tue": [
+    10,
+    23
+   ],
+   "Wed": [
+    10,
+    23
+   ],
+   "Thu": [
+    10,
+    23
+   ],
+   "Fri": [
+    10,
+    23
+   ],
+   "Sat": [
+    10,
+    23
+   ],
+   "Sun": [
+    10,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132854,
+  "name": "Sirlone",
+  "lat": 22.1378633,
+  "lng": -100.9383273,
+  "cuisines": [
+   "International"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.67,
+  "num_ratings": 6,
+  "schedule": {
+   "Mon": [
+    10,
+    22
+   ],
+   "Tue": [
+    10,
+    22
+   ],
+   "Wed": [
+    10,
+    22
+   ],
+   "Thu": [
+    10,
+    22
+   ],
+   "Fri": [
+    10,
+    22
+   ],
+   "Sat": [
+    10,
+    22
+   ],
+   "Sun": [
+    10,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 132937,
+  "name": "rockabilly",
+  "lat": 22.1500193,
+  "lng": -100.9799203,
+  "cuisines": [
+   "Bar"
+  ],
+  "price_level": 1,
+  "alcohol": "Full_Bar",
+  "ambience": "quiet",
+  "franchise": false,
+  "rating": 4.0,
+  "num_ratings": 4,
+  "schedule": {
+   "Mon": [
+    21,
+    2
+   ],
+   "Tue": [
+    21,
+    2
+   ],
+   "Wed": [
+    21,
+    2
+   ],
+   "Thu": [
+    21,
+    2
+   ],
+   "Fri": [
+    21,
+    2
+   ],
+   "Sat": [
+    21,
+    2
+   ],
+   "Sun": [
+    16,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132856,
+  "name": "Unicols Pizza",
+  "lat": 22.1513782,
+  "lng": -100.9746337,
+  "cuisines": [
+   "Italian"
+  ],
+  "price_level": 1,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.71,
+  "num_ratings": 14,
+  "schedule": {
+   "Mon": [
+    10,
+    22
+   ],
+   "Tue": [
+    10,
+    22
+   ],
+   "Wed": [
+    10,
+    22
+   ],
+   "Thu": [
+    10,
+    22
+   ],
+   "Fri": [
+    10,
+    22
+   ],
+   "Sat": [
+    10,
+    22
+   ],
+   "Sun": [
+    10,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 135033,
+  "name": "Restaurant El Muladar de Calzada",
+  "lat": 22.14161,
+  "lng": -100.973142,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.5,
+  "num_ratings": 4,
+  "schedule": {
+   "Mon": [
+    9,
+    21
+   ],
+   "Tue": [
+    9,
+    21
+   ],
+   "Wed": [
+    9,
+    21
+   ],
+   "Thu": [
+    9,
+    21
+   ],
+   "Fri": [
+    9,
+    21
+   ],
+   "Sat": [
+    9,
+    21
+   ],
+   "Sun": [
+    9,
+    21
+   ]
+  }
+ },
+ {
+  "place_id": 132862,
+  "name": "La Posada del Virrey",
+  "lat": 22.1506429,
+  "lng": -100.9870148,
+  "cuisines": [
+   "International"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.78,
+  "num_ratings": 18,
+  "schedule": {
+   "Mon": [
+    9,
+    23
+   ],
+   "Tue": [
+    9,
+    23
+   ],
+   "Wed": [
+    9,
+    23
+   ],
+   "Thu": [
+    9,
+    23
+   ],
+   "Fri": [
+    9,
+    23
+   ],
+   "Sat": [
+    9,
+    23
+   ],
+   "Sun": [
+    9,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132851,
+  "name": "KFC",
+  "lat": 22.136872,
+  "lng": -100.9345736,
+  "cuisines": [
+   "American",
+   "Game"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.86,
+  "num_ratings": 7,
+  "schedule": {
+   "Mon": [
+    9,
+    22
+   ],
+   "Tue": [
+    9,
+    22
+   ],
+   "Wed": [
+    9,
+    22
+   ],
+   "Thu": [
+    9,
+    22
+   ],
+   "Fri": [
+    9,
+    22
+   ],
+   "Sat": [
+    9,
+    22
+   ],
+   "Sun": [
+    9,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 135042,
+  "name": "Restaurant Oriental Express",
+  "lat": 22.159357,
+  "lng": -100.973411,
+  "cuisines": [
+   "Chinese"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.5,
+  "num_ratings": 20,
+  "schedule": {
+   "Mon": [
+    11,
+    21
+   ],
+   "Tue": [
+    11,
+    21
+   ],
+   "Wed": [
+    11,
+    21
+   ],
+   "Thu": [
+    11,
+    21
+   ],
+   "Fri": [
+    11,
+    21
+   ],
+   "Sat": [
+    11,
+    21
+   ],
+   "Sun": [
+    11,
+    21
+   ]
+  }
+ },
+ {
+  "place_id": 135045,
+  "name": "Restaurante la Gran Via",
+  "lat": 22.151189,
+  "lng": -100.98179,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.92,
+  "num_ratings": 13,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    19
+   ]
+  }
+ },
+ {
+  "place_id": 135054,
+  "name": "Restaurante y Pescaderia Tampico",
+  "lat": 22.140626,
+  "lng": -100.915657,
+  "cuisines": [
+   "Seafood"
+  ],
+  "price_level": 3,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 10,
+  "schedule": {
+   "Mon": [
+    7,
+    19
+   ],
+   "Tue": [
+    7,
+    19
+   ],
+   "Wed": [
+    7,
+    19
+   ],
+   "Thu": [
+    7,
+    19
+   ],
+   "Fri": [
+    7,
+    19
+   ],
+   "Sat": [
+    7,
+    19
+   ],
+   "Sun": [
+    7,
+    19
+   ]
+  }
+ },
+ {
+  "place_id": 135053,
+  "name": "La Fontana Pizza Restaurante and Cafe",
+  "lat": 22.178931,
+  "lng": -101.012861,
+  "cuisines": [
+   "Cafeteria",
+   "Fast_Food",
+   "Pizzeria"
+  ],
+  "price_level": 3,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.25,
+  "num_ratings": 8,
+  "schedule": {
+   "Mon": [
+    11,
+    22
+   ],
+   "Tue": [
+    11,
+    22
+   ],
+   "Wed": [
+    11,
+    22
+   ],
+   "Thu": [
+    11,
+    22
+   ],
+   "Fri": [
+    11,
+    22
+   ],
+   "Sat": [
+    11,
+    22
+   ],
+   "Sun": [
+    11,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 135025,
+  "name": "El Rincon de San Francisco",
+  "lat": 22.14955,
+  "lng": -100.97797,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.33,
+  "num_ratings": 15,
+  "schedule": {
+   "Mon": [
+    18,
+    23
+   ],
+   "Tue": [
+    18,
+    23
+   ],
+   "Wed": [
+    18,
+    23
+   ],
+   "Thu": [
+    18,
+    23
+   ],
+   "Fri": [
+    18,
+    23
+   ],
+   "Sat": [
+    14,
+    23
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 135030,
+  "name": "Preambulo Wifi Zone Cafe",
+  "lat": 22.14788,
+  "lng": -100.989472,
+  "cuisines": [
+   "Cafe-Coffee_Shop",
+   "Cafeteria"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "quiet",
+  "franchise": false,
+  "rating": 4.17,
+  "num_ratings": 12,
+  "schedule": {
+   "Mon": [
+    0,
+    0
+   ],
+   "Tue": [
+    0,
+    0
+   ],
+   "Wed": [
+    0,
+    0
+   ],
+   "Thu": [
+    0,
+    0
+   ],
+   "Fri": [
+    0,
+    0
+   ],
+   "Sat": [
+    0,
+    0
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 135057,
+  "name": "El Herradero Restaurante and Bar",
+  "lat": 22.145992,
+  "lng": -100.955118,
+  "cuisines": [
+   "Bar"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.53,
+  "num_ratings": 15,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135079,
+  "name": "Koye Sushi",
+  "lat": 22.156376,
+  "lng": -100.998355,
+  "cuisines": [
+   "Chinese"
+  ],
+  "price_level": 3,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.35,
+  "num_ratings": 17,
+  "schedule": {
+   "Mon": [
+    13,
+    22
+   ],
+   "Tue": [
+    13,
+    22
+   ],
+   "Wed": [
+    13,
+    22
+   ],
+   "Thu": [
+    13,
+    22
+   ],
+   "Fri": [
+    13,
+    22
+   ],
+   "Sat": [
+    13,
+    22
+   ],
+   "Sun": [
+    13,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 132954,
+  "name": "la parroquia",
+  "lat": 22.1603808,
+  "lng": -100.9880447,
+  "cuisines": [
+   "Breakfast-Brunch"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": true,
+  "rating": 3.0,
+  "num_ratings": 9,
+  "schedule": {
+   "Mon": [
+    8,
+    22
+   ],
+   "Tue": [
+    8,
+    22
+   ],
+   "Wed": [
+    8,
+    22
+   ],
+   "Thu": [
+    8,
+    22
+   ],
+   "Fri": [
+    8,
+    22
+   ],
+   "Sat": [
+    8,
+    15
+   ],
+   "Sun": [
+    8,
+    13
+   ]
+  }
+ },
+ {
+  "place_id": 135041,
+  "name": "Luna Cafe",
+  "lat": 22.15106,
+  "lng": -100.977659,
+  "cuisines": [
+   "Bar",
+   "Cafeteria"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.35,
+  "num_ratings": 17,
+  "schedule": {
+   "Mon": [
+    0,
+    0
+   ],
+   "Tue": [
+    0,
+    0
+   ],
+   "Wed": [
+    0,
+    0
+   ],
+   "Thu": [
+    0,
+    0
+   ],
+   "Fri": [
+    0,
+    0
+   ],
+   "Sat": [
+    0,
+    0
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 135046,
+  "name": "Restaurante El Reyecito",
+  "lat": 22.141282,
+  "lng": -101.002958,
+  "cuisines": [
+   "Fast_Food"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.55,
+  "num_ratings": 11,
+  "schedule": {
+   "Mon": [
+    8,
+    21
+   ],
+   "Tue": [
+    8,
+    21
+   ],
+   "Wed": [
+    8,
+    21
+   ],
+   "Thu": [
+    8,
+    21
+   ],
+   "Fri": [
+    8,
+    21
+   ],
+   "Sat": [
+    8,
+    21
+   ],
+   "Sun": [
+    8,
+    21
+   ]
+  }
+ },
+ {
+  "place_id": 132869,
+  "name": "Dominos Pizza",
+  "lat": 22.1412384,
+  "lng": -100.9239252,
+  "cuisines": [
+   "Pizzeria"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.33,
+  "num_ratings": 6,
+  "schedule": {
+   "Mon": [
+    10,
+    23
+   ],
+   "Tue": [
+    10,
+    23
+   ],
+   "Wed": [
+    10,
+    23
+   ],
+   "Thu": [
+    10,
+    23
+   ],
+   "Fri": [
+    10,
+    23
+   ],
+   "Sat": [
+    10,
+    23
+   ],
+   "Sun": [
+    10,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135059,
+  "name": "Restaurant Bar Hacienda los Martinez",
+  "lat": 22.145108,
+  "lng": -100.989547,
+  "cuisines": [
+   "Bar"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.33,
+  "num_ratings": 9,
+  "schedule": {
+   "Mon": [
+    12,
+    23
+   ],
+   "Tue": [
+    12,
+    23
+   ],
+   "Wed": [
+    12,
+    23
+   ],
+   "Thu": [
+    12,
+    23
+   ],
+   "Fri": [
+    12,
+    23
+   ],
+   "Sat": [
+    12,
+    23
+   ],
+   "Sun": [
+    12,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135063,
+  "name": "Restaurante Alhondiga",
+  "lat": 22.156724,
+  "lng": -100.975556,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.5,
+  "num_ratings": 8,
+  "schedule": {
+   "Mon": [
+    8,
+    19
+   ],
+   "Tue": [
+    8,
+    19
+   ],
+   "Wed": [
+    8,
+    19
+   ],
+   "Thu": [
+    8,
+    19
+   ],
+   "Fri": [
+    8,
+    19
+   ],
+   "Sat": [
+    8,
+    19
+   ],
+   "Sun": [
+    9,
+    15
+   ]
+  }
+ },
+ {
+  "place_id": 135080,
+  "name": "los Toneles",
+  "lat": 22.145008,
+  "lng": -100.997969,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 6,
+  "schedule": {
+   "Mon": [
+    14,
+    23
+   ],
+   "Tue": [
+    14,
+    23
+   ],
+   "Wed": [
+    14,
+    23
+   ],
+   "Thu": [
+    14,
+    23
+   ],
+   "Fri": [
+    14,
+    23
+   ],
+   "Sat": [
+    14,
+    23
+   ],
+   "Sun": [
+    14,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135066,
+  "name": "Restaurante Guerra",
+  "lat": 22.16835,
+  "lng": -100.972466,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.0,
+  "num_ratings": 12,
+  "schedule": {
+   "Sat": [
+    7,
+    23
+   ],
+   "Mon": [
+    7,
+    23
+   ],
+   "Tue": [
+    7,
+    23
+   ],
+   "Wed": [
+    7,
+    23
+   ],
+   "Thu": [
+    7,
+    23
+   ],
+   "Fri": [
+    7,
+    23
+   ],
+   "Sun": [
+    7,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135034,
+  "name": "Michiko Restaurant Japones",
+  "lat": 22.140517,
+  "lng": -101.021422,
+  "cuisines": [
+   "Japanese"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 5.0,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    19
+   ]
+  }
+ },
+ {
+  "place_id": 135060,
+  "name": "Restaurante Marisco Sam",
+  "lat": 22.156883,
+  "lng": -100.978485,
+  "cuisines": [
+   "Seafood"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.27,
+  "num_ratings": 22,
+  "schedule": {
+   "Mon": [
+    11,
+    19
+   ],
+   "Tue": [
+    11,
+    19
+   ],
+   "Wed": [
+    11,
+    19
+   ],
+   "Thu": [
+    11,
+    19
+   ],
+   "Fri": [
+    11,
+    19
+   ],
+   "Sat": [
+    11,
+    19
+   ],
+   "Sun": [
+    11,
+    19
+   ]
+  }
+ },
+ {
+  "place_id": 135055,
+  "name": "la Cochinita Pibil Restaurante Yucateco",
+  "lat": 22.148854,
+  "lng": -101.008472,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 3,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.43,
+  "num_ratings": 7,
+  "schedule": {
+   "Mon": [
+    14,
+    22
+   ],
+   "Tue": [
+    14,
+    22
+   ],
+   "Wed": [
+    14,
+    22
+   ],
+   "Thu": [
+    14,
+    22
+   ],
+   "Fri": [
+    14,
+    22
+   ],
+   "Sat": [
+    14,
+    22
+   ],
+   "Sun": [
+    14,
+    20
+   ]
+  }
+ },
+ {
+  "place_id": 135108,
+  "name": "Potzocalli",
+  "lat": 22.1362534,
+  "lng": -100.9335852,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.36,
+  "num_ratings": 11,
+  "schedule": {
+   "Mon": [
+    0,
+    23
+   ],
+   "Tue": [
+    0,
+    23
+   ],
+   "Wed": [
+    0,
+    23
+   ],
+   "Thu": [
+    0,
+    23
+   ],
+   "Fri": [
+    0,
+    23
+   ],
+   "Sat": [
+    0,
+    23
+   ],
+   "Sun": [
+    0,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135074,
+  "name": "Restaurante la Parroquia Potosina",
+  "lat": 22.149689,
+  "lng": -100.999525,
+  "cuisines": [
+   "Contemporary"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.5,
+  "num_ratings": 4,
+  "schedule": {
+   "Mon": [
+    7,
+    23
+   ],
+   "Tue": [
+    7,
+    23
+   ],
+   "Wed": [
+    7,
+    23
+   ],
+   "Thu": [
+    7,
+    23
+   ],
+   "Fri": [
+    7,
+    23
+   ],
+   "Sat": [
+    7,
+    23
+   ],
+   "Sun": [
+    7,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135064,
+  "name": "Restaurante El Chivero S.A. de C.V.",
+  "lat": 22.154687,
+  "lng": -100.996617,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.76,
+  "num_ratings": 17,
+  "schedule": {
+   "Mon": [
+    7,
+    22
+   ],
+   "Tue": [
+    7,
+    22
+   ],
+   "Wed": [
+    7,
+    22
+   ],
+   "Thu": [
+    7,
+    22
+   ],
+   "Fri": [
+    7,
+    22
+   ],
+   "Sat": [
+    7,
+    22
+   ],
+   "Sun": [
+    7,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 135038,
+  "name": "Restaurant la Chalita",
+  "lat": 22.155651,
+  "lng": -100.977767,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.42,
+  "num_ratings": 24,
+  "schedule": {
+   "Mon": [
+    8,
+    17
+   ],
+   "Tue": [
+    8,
+    17
+   ],
+   "Wed": [
+    8,
+    17
+   ],
+   "Thu": [
+    8,
+    17
+   ],
+   "Fri": [
+    8,
+    17
+   ],
+   "Sat": [
+    8,
+    17
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 135081,
+  "name": "El Club",
+  "lat": 22.164842,
+  "lng": -100.960493,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.36,
+  "num_ratings": 11,
+  "schedule": {
+   "Mon": [
+    14,
+    23
+   ],
+   "Tue": [
+    14,
+    23
+   ],
+   "Wed": [
+    14,
+    23
+   ],
+   "Thu": [
+    14,
+    23
+   ],
+   "Fri": [
+    14,
+    23
+   ],
+   "Sat": [
+    14,
+    23
+   ],
+   "Sun": [
+    14,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135051,
+  "name": "Restaurante Versalles",
+  "lat": 22.151189,
+  "lng": -100.977058,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.86,
+  "num_ratings": 14,
+  "schedule": {
+   "Mon": [
+    8,
+    23
+   ],
+   "Tue": [
+    8,
+    23
+   ],
+   "Wed": [
+    8,
+    23
+   ],
+   "Thu": [
+    8,
+    23
+   ],
+   "Fri": [
+    8,
+    23
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 135052,
+  "name": "La Cantina Restaurante",
+  "lat": 22.150981,
+  "lng": -100.977412,
+  "cuisines": [
+   "Bar",
+   "Bar_Pub_Brewery"
+  ],
+  "price_level": 3,
+  "alcohol": "Full_Bar",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.56,
+  "num_ratings": 25,
+  "schedule": {
+   "Mon": [
+    8,
+    23
+   ],
+   "Tue": [
+    8,
+    23
+   ],
+   "Wed": [
+    8,
+    23
+   ],
+   "Thu": [
+    8,
+    23
+   ],
+   "Fri": [
+    8,
+    23
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    8,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132845,
+  "name": "Cenaduria El Rinc\u00f3n de Tlaquepaque",
+  "lat": 22.1262926,
+  "lng": -100.9007764,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.6,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    19,
+    23
+   ],
+   "Tue": [
+    19,
+    23
+   ],
+   "Wed": [
+    19,
+    23
+   ],
+   "Thu": [
+    19,
+    23
+   ],
+   "Fri": [
+    19,
+    23
+   ],
+   "Sat": [
+    19,
+    23
+   ],
+   "Sun": [
+    19,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132858,
+  "name": "Hamburguesas Valle Dorado",
+  "lat": 22.1312917,
+  "lng": -100.9371941,
+  "cuisines": [
+   "Burgers"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.6,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    18,
+    23
+   ],
+   "Tue": [
+    18,
+    23
+   ],
+   "Wed": [
+    18,
+    23
+   ],
+   "Thu": [
+    18,
+    23
+   ],
+   "Fri": [
+    18,
+    23
+   ],
+   "Sat": [
+    18,
+    23
+   ],
+   "Sun": [
+    18,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135026,
+  "name": "la Cantina",
+  "lat": 22.148665,
+  "lng": -101.001273,
+  "cuisines": [
+   "Bar",
+   "Bar_Pub_Brewery"
+  ],
+  "price_level": 3,
+  "alcohol": "Full_Bar",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.73,
+  "num_ratings": 11,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 135047,
+  "name": "Restaurante Casa de las Flores",
+  "lat": 22.150921,
+  "lng": -100.993828,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.2,
+  "num_ratings": 10,
+  "schedule": {
+   "Mon": [
+    8,
+    23
+   ],
+   "Tue": [
+    8,
+    23
+   ],
+   "Wed": [
+    8,
+    23
+   ],
+   "Thu": [
+    8,
+    23
+   ],
+   "Fri": [
+    8,
+    23
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    8,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 132951,
+  "name": "VIPS",
+  "lat": 22.1544736,
+  "lng": -100.9858091,
+  "cuisines": [
+   "American"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 10,
+  "schedule": {
+   "Mon": [
+    0,
+    23
+   ],
+   "Tue": [
+    0,
+    23
+   ],
+   "Wed": [
+    0,
+    23
+   ],
+   "Thu": [
+    0,
+    23
+   ],
+   "Fri": [
+    0,
+    23
+   ],
+   "Sat": [
+    0,
+    23
+   ],
+   "Sun": [
+    0,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135044,
+  "name": "Restaurant Wu Zhuo Yi",
+  "lat": 22.141848,
+  "lng": -100.997475,
+  "cuisines": [
+   "Chinese"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.5,
+  "num_ratings": 4,
+  "schedule": {
+   "Mon": [
+    13,
+    22
+   ],
+   "Tue": [
+    13,
+    22
+   ],
+   "Wed": [
+    13,
+    22
+   ],
+   "Thu": [
+    13,
+    22
+   ],
+   "Fri": [
+    13,
+    22
+   ],
+   "Sat": [
+    13,
+    22
+   ],
+   "Sun": [
+    13,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 135035,
+  "name": "El Mundo de la Pasta",
+  "lat": 22.145813,
+  "lng": -101.018032,
+  "cuisines": [
+   "Italian"
+  ],
+  "price_level": 3,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.0,
+  "num_ratings": 4,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    18
+   ]
+  }
+ },
+ {
+  "place_id": 135071,
+  "name": "Restaurante la Cantina",
+  "lat": 22.126375,
+  "lng": -100.910926,
+  "cuisines": [
+   "Bar",
+   "Bar_Pub_Brewery"
+  ],
+  "price_level": 2,
+  "alcohol": "Full_Bar",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 9,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    20
+   ]
+  }
+ },
+ {
+  "place_id": 132834,
+  "name": "Gorditas Doa Gloria",
+  "lat": 22.156469,
+  "lng": -100.98554,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 25,
+  "schedule": {
+   "Mon": [
+    8,
+    15
+   ],
+   "Tue": [
+    8,
+    15
+   ],
+   "Wed": [
+    8,
+    15
+   ],
+   "Thu": [
+    8,
+    15
+   ],
+   "Fri": [
+    8,
+    15
+   ],
+   "Sat": [
+    0,
+    23
+   ],
+   "Sun": [
+    0,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132846,
+  "name": "el lechon potosino",
+  "lat": 22.1422732,
+  "lng": -100.9426537,
+  "cuisines": [
+   "International"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.8,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    8,
+    23
+   ],
+   "Tue": [
+    8,
+    23
+   ],
+   "Wed": [
+    8,
+    23
+   ],
+   "Thu": [
+    8,
+    23
+   ],
+   "Fri": [
+    8,
+    23
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    8,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135048,
+  "name": "Restaurante Bar Fu-hao",
+  "lat": 22.142017,
+  "lng": -100.999246,
+  "cuisines": [
+   "Bar"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 6,
+  "schedule": {
+   "Mon": [
+    11,
+    22
+   ],
+   "Tue": [
+    11,
+    22
+   ],
+   "Wed": [
+    11,
+    22
+   ],
+   "Thu": [
+    11,
+    22
+   ],
+   "Fri": [
+    11,
+    22
+   ],
+   "Sat": [
+    11,
+    22
+   ],
+   "Sun": [
+    11,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 132861,
+  "name": "Carls Jr",
+  "lat": 22.1480965,
+  "lng": -101.0173023,
+  "cuisines": [
+   "Burgers"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": true,
+  "rating": 3.86,
+  "num_ratings": 7,
+  "schedule": {
+   "Mon": [
+    10,
+    23
+   ],
+   "Tue": [
+    10,
+    23
+   ],
+   "Wed": [
+    10,
+    23
+   ],
+   "Thu": [
+    10,
+    23
+   ],
+   "Fri": [
+    10,
+    23
+   ],
+   "Sat": [
+    10,
+    23
+   ],
+   "Sun": [
+    10,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132885,
+  "name": "Hamburguesas saul",
+  "lat": 22.1795169,
+  "lng": -100.9584358,
+  "cuisines": [
+   "Cafeteria"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.2,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    8,
+    23
+   ],
+   "Tue": [
+    8,
+    23
+   ],
+   "Wed": [
+    8,
+    23
+   ],
+   "Thu": [
+    8,
+    23
+   ],
+   "Fri": [
+    8,
+    23
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    8,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132572,
+  "name": "Cafe Chaires",
+  "lat": 22.1416471,
+  "lng": -100.9927118,
+  "cuisines": [
+   "Cafeteria"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 15,
+  "schedule": {
+   "Mon": [
+    0,
+    23
+   ],
+   "Tue": [
+    0,
+    23
+   ],
+   "Wed": [
+    0,
+    23
+   ],
+   "Thu": [
+    0,
+    23
+   ],
+   "Fri": [
+    0,
+    23
+   ],
+   "Sat": [
+    0,
+    23
+   ],
+   "Sun": [
+    0,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132958,
+  "name": "tacos los volcanes",
+  "lat": 22.1449787,
+  "lng": -101.0056829,
+  "cuisines": [
+   "American"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "quiet",
+  "franchise": true,
+  "rating": 4.33,
+  "num_ratings": 6,
+  "schedule": {
+   "Mon": [
+    10,
+    23
+   ],
+   "Tue": [
+    10,
+    23
+   ],
+   "Wed": [
+    10,
+    23
+   ],
+   "Thu": [
+    10,
+    23
+   ],
+   "Fri": [
+    10,
+    23
+   ],
+   "Sat": [
+    10,
+    23
+   ],
+   "Sun": [
+    10,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135027,
+  "name": "Restaurant Orizatlan",
+  "lat": 22.147145,
+  "lng": -100.974494,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 2.75,
+  "num_ratings": 8,
+  "schedule": {
+   "Mon": [
+    8,
+    22
+   ],
+   "Tue": [
+    8,
+    22
+   ],
+   "Wed": [
+    8,
+    22
+   ],
+   "Thu": [
+    8,
+    22
+   ],
+   "Fri": [
+    8,
+    22
+   ],
+   "Sat": [
+    8,
+    23
+   ],
+   "Sun": [
+    8,
+    19
+   ]
+  }
+ },
+ {
+  "place_id": 135039,
+  "name": "Restaurant de Mariscos de Picon",
+  "lat": 22.145893,
+  "lng": -100.97487,
+  "cuisines": [
+   "Seafood"
+  ],
+  "price_level": 1,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.5,
+  "num_ratings": 12,
+  "schedule": {
+   "Mon": [
+    10,
+    20
+   ],
+   "Tue": [
+    10,
+    20
+   ],
+   "Wed": [
+    10,
+    20
+   ],
+   "Thu": [
+    10,
+    20
+   ],
+   "Fri": [
+    10,
+    20
+   ],
+   "Sat": [
+    10,
+    20
+   ],
+   "Sun": [
+    10,
+    20
+   ]
+  }
+ },
+ {
+  "place_id": 132755,
+  "name": "La Estrella de Dimas",
+  "lat": 22.153324,
+  "lng": -101.0195459,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.6,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    0,
+    23
+   ],
+   "Tue": [
+    0,
+    23
+   ],
+   "Wed": [
+    0,
+    23
+   ],
+   "Thu": [
+    0,
+    23
+   ],
+   "Fri": [
+    0,
+    23
+   ],
+   "Sat": [
+    0,
+    23
+   ],
+   "Sun": [
+    0,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135049,
+  "name": "Restaurante de Mariscos la Langosta",
+  "lat": 22.135011,
+  "lng": -101.0286,
+  "cuisines": [
+   "Seafood"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.0,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    12,
+    20
+   ],
+   "Tue": [
+    12,
+    20
+   ],
+   "Wed": [
+    12,
+    20
+   ],
+   "Thu": [
+    12,
+    20
+   ],
+   "Fri": [
+    12,
+    20
+   ],
+   "Sat": [
+    12,
+    20
+   ],
+   "Sun": [
+    12,
+    20
+   ]
+  }
+ },
+ {
+  "place_id": 135073,
+  "name": "Restaurante Bar El Gallinero",
+  "lat": 22.147175,
+  "lng": -100.974269,
+  "cuisines": [
+   "Bar",
+   "Bar_Pub_Brewery"
+  ],
+  "price_level": 3,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.0,
+  "num_ratings": 4,
+  "schedule": {
+   "Mon": [
+    9,
+    23
+   ],
+   "Tue": [
+    9,
+    23
+   ],
+   "Wed": [
+    9,
+    23
+   ],
+   "Thu": [
+    9,
+    23
+   ],
+   "Fri": [
+    9,
+    23
+   ],
+   "Sat": [
+    9,
+    23
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 135075,
+  "name": "Mariscos El Pescador",
+  "lat": 22.139573,
+  "lng": -100.991564,
+  "cuisines": [
+   "Seafood"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.38,
+  "num_ratings": 13,
+  "schedule": {
+   "Mon": [
+    0,
+    23
+   ],
+   "Tue": [
+    0,
+    23
+   ],
+   "Wed": [
+    0,
+    23
+   ],
+   "Thu": [
+    0,
+    23
+   ],
+   "Fri": [
+    0,
+    23
+   ],
+   "Sat": [
+    0,
+    23
+   ],
+   "Sun": [
+    0,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135062,
+  "name": "Restaurante El Cielo Potosino",
+  "lat": 22.153703,
+  "lng": -100.979033,
+  "cuisines": [
+   "Unspecified"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.48,
+  "num_ratings": 21,
+  "schedule": {
+   "Mon": [
+    0,
+    23
+   ],
+   "Tue": [
+    0,
+    23
+   ],
+   "Wed": [
+    0,
+    23
+   ],
+   "Thu": [
+    0,
+    23
+   ],
+   "Fri": [
+    0,
+    23
+   ],
+   "Sat": [
+    0,
+    23
+   ],
+   "Sun": [
+    0,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135058,
+  "name": "Restaurante Tiberius",
+  "lat": 22.165587,
+  "lng": -101.001273,
+  "cuisines": [
+   "Pizzeria"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": true,
+  "rating": 3.22,
+  "num_ratings": 18,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 132754,
+  "name": "Cabana Huasteca",
+  "lat": 22.1477379,
+  "lng": -100.9906163,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.92,
+  "num_ratings": 13,
+  "schedule": {
+   "Mon": [
+    8,
+    20
+   ],
+   "Tue": [
+    8,
+    20
+   ],
+   "Wed": [
+    8,
+    20
+   ],
+   "Thu": [
+    8,
+    20
+   ],
+   "Fri": [
+    8,
+    20
+   ],
+   "Sat": [
+    8,
+    20
+   ],
+   "Sun": [
+    8,
+    18
+   ]
+  }
+ },
+ {
+  "place_id": 135032,
+  "name": "Cafeteria y Restaurant El Pacifico",
+  "lat": 22.152481,
+  "lng": -100.973486,
+  "cuisines": [
+   "Cafeteria",
+   "Contemporary"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.36,
+  "num_ratings": 28,
+  "schedule": {
+   "Mon": [
+    7,
+    23
+   ],
+   "Tue": [
+    7,
+    23
+   ],
+   "Wed": [
+    7,
+    23
+   ],
+   "Thu": [
+    7,
+    23
+   ],
+   "Fri": [
+    7,
+    23
+   ],
+   "Sat": [
+    7,
+    23
+   ],
+   "Sun": [
+    7,
+    23
+   ]
+  }
+ },
+ {
+  "place_id": 135028,
+  "name": "La Virreina",
+  "lat": 22.146658,
+  "lng": -100.987219,
+  "cuisines": [
+   "Mexican"
+  ],
+  "price_level": 2,
+  "alcohol": "Wine-Beer",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 4.07,
+  "num_ratings": 15,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    19
+   ]
+  }
+ },
+ {
+  "place_id": 135085,
+  "name": "Tortas Locas Hipocampo",
+  "lat": 22.150802,
+  "lng": -100.98268,
+  "cuisines": [
+   "Fast_Food"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.67,
+  "num_ratings": 36,
+  "schedule": {
+   "Mon": [
+    0,
+    0
+   ],
+   "Tue": [
+    0,
+    0
+   ],
+   "Wed": [
+    0,
+    0
+   ],
+   "Thu": [
+    0,
+    0
+   ],
+   "Fri": [
+    0,
+    0
+   ],
+   "Sat": [
+    0,
+    0
+   ],
+   "Sun": [
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "place_id": 132866,
+  "name": "Chaires",
+  "lat": 22.1412198,
+  "lng": -100.9313107,
+  "cuisines": [
+   "Bakery",
+   "Cafeteria"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.8,
+  "num_ratings": 5,
+  "schedule": {
+   "Mon": [
+    9,
+    22
+   ],
+   "Tue": [
+    9,
+    22
+   ],
+   "Wed": [
+    9,
+    22
+   ],
+   "Thu": [
+    9,
+    22
+   ],
+   "Fri": [
+    9,
+    22
+   ],
+   "Sat": [
+    9,
+    22
+   ],
+   "Sun": [
+    9,
+    22
+   ]
+  }
+ },
+ {
+  "place_id": 135072,
+  "name": "Sushi Itto",
+  "lat": 22.149192,
+  "lng": -101.002936,
+  "cuisines": [
+   "Japanese"
+  ],
+  "price_level": 2,
+  "alcohol": "No_Alcohol_Served",
+  "ambience": "familiar",
+  "franchise": false,
+  "rating": 3.5,
+  "num_ratings": 8,
+  "schedule": {
+   "Mon": [
+    13,
+    23
+   ],
+   "Tue": [
+    13,
+    23
+   ],
+   "Wed": [
+    13,
+    23
+   ],
+   "Thu": [
+    13,
+    23
+   ],
+   "Fri": [
+    13,
+    23
+   ],
+   "Sat": [
+    13,
+    23
+   ],
+   "Sun": [
+    13,
+    22
+   ]
+  }
+ }
+]

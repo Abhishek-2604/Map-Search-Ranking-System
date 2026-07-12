@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wayfinder — Real-Data Map Search, Live Learning-to-Rank</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-deep:#0E1B1E; --bg-panel:#132528; --bg-panel-2:#0F2124;
+    --line:#2A4145; --paper:#EDE6D6; --paper-dim:#B9C4C2; --muted:#7C9694;
+    --brass:#E3A857; --brass-dim:#8A6A3A; --teal:#4FD1C5; --closed:#C1666B;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:radial-gradient(circle at 15% -10%, #17302f 0%, transparent 45%),
+               radial-gradient(circle at 100% 0%, #12292b 0%, transparent 40%),
+               var(--bg-deep);
+    color:var(--paper); font-family:'Inter',sans-serif; min-height:100vh; padding:28px 20px 60px;
+  }
+  .wrap{max-width:1080px; margin:0 auto;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+
+  header{display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:12px;
+    border-bottom:1px solid var(--line); padding-bottom:16px; margin-bottom:20px;}
+  .brand{display:flex; align-items:center; gap:12px;}
+  .brand-mark{width:36px; height:36px; border:1.5px solid var(--brass); border-radius:50%;
+    display:flex; align-items:center; justify-content:center; position:relative; flex-shrink:0;}
+  .brand-mark::before{content:"";position:absolute;width:42px;height:1px;background:var(--brass-dim);}
+  .brand-mark::after{content:"";position:absolute;width:1px;height:42px;background:var(--brass-dim);}
+  .brand-mark span{width:5px;height:5px;background:var(--brass);border-radius:50%;position:relative;z-index:2;}
+  h1{font-family:'Fraunces',serif; font-weight:600; font-size:26px; margin:0;}
+  .tagline{color:var(--muted); font-size:12.5px; margin-top:2px;}
+  .data-badge{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--teal); text-align:right;}
+  .data-badge .k{color:var(--muted); text-transform:uppercase; letter-spacing:.08em; font-size:10px;}
+
+  /* search */
+  .search-shell{position:relative; margin-bottom:14px;}
+  .search-icon{position:absolute; left:16px; top:50%; transform:translateY(-50%); color:var(--muted); font-size:16px;}
+  #search{
+    width:100%; background:var(--bg-panel); border:1px solid var(--line); border-radius:12px;
+    color:var(--paper); font-family:'Inter',sans-serif; font-size:16px;
+    padding:15px 16px 15px 44px; outline:none; transition:border-color .15s ease, box-shadow .15s ease;
+  }
+  #search:focus{border-color:var(--brass-dim); box-shadow:0 0 0 3px rgba(227,168,87,0.12);}
+  #search::placeholder{color:var(--muted);}
+  .pulse-ring{position:absolute; right:14px; top:50%; transform:translateY(-50%);
+    width:8px; height:8px; border-radius:50%; background:var(--teal); opacity:0; transition:opacity .2s;}
+  .pulse-ring.active{opacity:1; animation:pulse 1.1s ease-out infinite;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(79,209,197,.5);}100%{box-shadow:0 0 0 9px rgba(79,209,197,0);}}
+
+  .chip-row{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;}
+  .chip{background:transparent; border:1px solid var(--line); color:var(--paper-dim);
+    padding:6px 12px; border-radius:20px; font-size:12.5px; cursor:pointer; transition:all .15s ease;}
+  .chip:hover{border-color:var(--brass-dim); color:var(--paper);}
+
+  .time-row{display:flex; align-items:center; gap:10px; margin-bottom:22px; flex-wrap:wrap;}
+  .label-eyebrow{font-size:10.5px; text-transform:uppercase; letter-spacing:0.09em; color:var(--muted);}
+  .radio-group{display:flex; gap:4px; background:var(--bg-panel-2); border:1px solid var(--line); border-radius:8px; padding:3px;}
+  .radio-opt{padding:6px 13px; border-radius:6px; font-size:12.5px; cursor:pointer; color:var(--muted); transition:all .15s ease;}
+  .radio-opt.active{background:var(--brass-dim); color:var(--paper);}
+  .today-tag{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--muted);}
+
+  .main-grid{display:grid; grid-template-columns:0.9fr 1.1fr; gap:20px;}
+  @media (max-width:860px){ .main-grid{grid-template-columns:1fr;} }
+  .panel{background:var(--bg-panel); border:1px solid var(--line); border-radius:10px; padding:16px 18px 18px;}
+  .panel h2{font-family:'Fraunces',serif; font-weight:500; font-size:14.5px; margin:0 0 12px; color:var(--paper-dim);
+    display:flex; justify-content:space-between; align-items:baseline;}
+  .panel h2 .count{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--muted); font-weight:400;}
+
+  .map-svg{width:100%; height:auto; display:block;}
+  .grat-line{stroke:var(--line); stroke-width:1;}
+  .user-ring{fill:none; stroke:var(--teal); opacity:0.3;}
+  .user-dot{fill:var(--teal);}
+  .poi-dot{transition:fill .3s ease;}
+  .poi-label{font-family:'IBM Plex Mono',monospace; font-size:9px; fill:var(--muted); pointer-events:none;}
+  .rank-badge-map{font-family:'IBM Plex Mono',monospace; font-weight:600; fill:#1a1208; font-size:9.5px; pointer-events:none;}
+  .pin-group{transition:transform 480ms cubic-bezier(.2,.8,.2,1);}
+
+  .result-list{display:flex; flex-direction:column; gap:8px; max-height:560px; overflow-y:auto; padding-right:4px; position:relative;}
+  .result-list::-webkit-scrollbar{width:6px;}
+  .result-list::-webkit-scrollbar-thumb{background:var(--line); border-radius:4px;}
+  .result-card{background:var(--bg-panel-2); border:1px solid var(--line); border-radius:8px;
+    padding:10px 12px; display:flex; gap:12px; align-items:flex-start; will-change:transform;}
+  .result-card.closed{opacity:0.5;}
+  .rank-num{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:15px; color:var(--brass); min-width:20px;}
+  .rc-body{flex:1; min-width:0;}
+  .rc-top{display:flex; justify-content:space-between; align-items:baseline; gap:8px;}
+  .rc-name{font-size:14px; font-weight:600; color:var(--paper); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .rc-score{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--teal); white-space:nowrap;}
+  .rc-meta{font-size:11.5px; color:var(--muted); margin-top:3px; display:flex; gap:9px; flex-wrap:wrap;}
+  .rc-meta .closed-tag{color:var(--closed); font-weight:600;}
+  .score-bar-track{height:4px; background:var(--line); border-radius:3px; margin-top:7px; overflow:hidden;}
+  .score-bar-fill{height:100%; background:linear-gradient(90deg, var(--brass-dim), var(--brass)); transition:width 420ms ease;}
+  .empty-state{color:var(--muted); font-size:13px; padding:20px 4px;}
+
+  .fi-panel{margin-top:20px;}
+  .fi-row{display:flex; align-items:center; gap:10px; margin-bottom:7px;}
+  .fi-name{width:100px; font-size:11.5px; color:var(--paper-dim); font-family:'IBM Plex Mono',monospace; flex-shrink:0;}
+  .fi-track{flex:1; height:8px; background:var(--bg-panel-2); border-radius:4px; overflow:hidden; border:1px solid var(--line);}
+  .fi-fill{height:100%; background:linear-gradient(90deg, var(--teal), var(--brass));}
+  .fi-val{width:44px; text-align:right; font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--muted);}
+
+  .footnote{color:var(--muted); font-size:12px; margin-top:22px; line-height:1.6; border-top:1px solid var(--line); padding-top:16px;}
+  .footnote b{color:var(--paper-dim);}
+  code{background:var(--bg-panel-2); padding:1px 5px; border-radius:4px; font-size:11.5px;}
+
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important; animation:none !important;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="brand-mark"><span></span></div>
+      <div>
+        <h1>Wayfinder</h1>
+        <div class="tagline">type a real search — a real learning-to-rank model ranks 70 real restaurants live</div>
+      </div>
+    </div>
+    <div class="data-badge">
+      <div class="k">Real dataset</div>
+      70 restaurants · San Luis Potosí, MX<br>UCI Restaurant &amp; Consumer Data
+    </div>
+  </header>
+
+  <div class="search-shell">
+    <span class="search-icon">⌕</span>
+    <input id="search" type="text" placeholder="Try “tacos”, “pizza”, “coffee”, “bar”…" autocomplete="off">
+    <span class="pulse-ring" id="pulse"></span>
+  </div>
+  <div class="chip-row" id="chip-row"></div>
+
+  <div class="time-row">
+    <span class="label-eyebrow">when</span>
+    <div class="radio-group" id="time-group">
+      <div class="radio-opt" data-hour="9">Morning</div>
+      <div class="radio-opt active" data-hour="13">Lunch</div>
+      <div class="radio-opt" data-hour="20">Dinner</div>
+      <div class="radio-opt" data-hour="23">Late night</div>
+    </div>
+    <span class="today-tag" id="today-tag"></span>
+  </div>
+
+  <div class="main-grid">
+    <div class="panel">
+      <h2>Map <span class="count" id="map-count"></span></h2>
+      <svg class="map-svg" id="map-svg" viewBox="0 0 420 420"></svg>
+    </div>
+    <div class="panel">
+      <h2>Ranked results <span class="count" id="result-count"></span></h2>
+      <div class="result-list" id="result-list"></div>
+    </div>
+  </div>
+
+  <div class="panel fi-panel">
+    <h2>What the model learned <span class="count">gain-based feature importance, from training</span></h2>
+    <div id="fi-list"></div>
+  </div>
+
+  <div class="footnote">
+    <b>How this works:</b> the 70 restaurants — names, GPS coordinates, cuisines, prices, opening hours, and
+    star ratings — are <b>real</b>, from the UCI "Restaurant &amp; Consumer Data" set (San Luis Potosí, Mexico).
+    A LightGBM <b>LambdaMART</b> model was trained offline on simulated search sessions over this real catalog
+    (no public query-log data exists for it) and exported to this page, where a small JavaScript function walks
+    its 120 trees directly — every ranking below is genuine model inference. Your search text is matched against
+    each restaurant's real name and cuisine tags, distance is computed from real coordinates, and "open now" is
+    read from each restaurant's real weekly hours for the time you pick above.
+  </div>
+
+</div>
+
+<script id="model-data" type="application/json">__MODEL_JSON__</script>
+<script id="restaurant-data" type="application/json">__RESTAURANT_JSON__</script>
+<script>
+const MODEL = JSON.parse(document.getElementById('model-data').textContent);
+const DATA = JSON.parse(document.getElementById('restaurant-data').textContent);
+const RESTAURANTS = DATA.restaurants;
+const DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+// ---- GBM inference: walk each tree, sum leaf values ----
+function walk(node, feats){
+  if('leaf' in node) return node.leaf;
+  return walk(feats[node.f] <= node.t ? node.l : node.r, feats);
+}
+function scoreRow(feats){
+  let s = 0;
+  for(const t of MODEL.trees) s += walk(t, feats);
+  return s;
+}
+
+function textMatchScore(query, r){
+  const q = query.toLowerCase().trim();
+  if(!q) return 0.3;
+  let best = 0;
+  for(const c of r.cuisines){
+    const cl = c.toLowerCase().replace(/_/g,' ');
+    if(cl === q) best = Math.max(best, 1.0);
+    else if(cl.includes(q) || q.includes(cl)) best = Math.max(best, 0.85);
+  }
+  if(r.name.toLowerCase().includes(q)) best = Math.max(best, 0.9);
+  const qTokens = q.split(/\s+/).filter(Boolean);
+  const hay = (r.name + ' ' + r.cuisines.join(' ')).toLowerCase().split(/[\s_]+/).filter(Boolean);
+  let hits = 0;
+  for(const t of qTokens){ if(hay.some(h => h.includes(t) || t.includes(h))) hits++; }
+  if(qTokens.length) best = Math.max(best, (hits/qTokens.length) * 0.6);
+  return best;
+}
+
+function isOpenAt(schedule, day, hour){
+  const span = schedule[day];
+  if(!span) return 0;
+  const [oh, ch] = span;
+  if(oh <= ch) return (oh <= hour && hour < ch) ? 1 : 0;
+  return (hour >= oh || hour < ch) ? 1 : 0;
+}
+
+const todayAbbr = DAYS[new Date().getDay()];
+document.getElementById('today-tag').textContent = `today: ${todayAbbr}`;
+
+let currentHour = 13;
+document.getElementById('time-group').addEventListener('click', (e) => {
+  const opt = e.target.closest('.radio-opt');
+  if(!opt) return;
+  document.querySelectorAll('.radio-opt').forEach(o => o.classList.remove('active'));
+  opt.classList.add('active');
+  currentHour = parseInt(opt.dataset.hour, 10);
+  render();
+});
+
+const EXAMPLE_QUERIES = ["Mexican", "Pizza", "Bar", "Breakfast", "Cafe", "Seafood"];
+const chipRow = document.getElementById('chip-row');
+EXAMPLE_QUERIES.forEach(q => {
+  const b = document.createElement('button');
+  b.className = 'chip'; b.textContent = q;
+  b.onclick = () => { searchInput.value = q; runSearch(); };
+  chipRow.appendChild(b);
+});
+
+const searchInput = document.getElementById('search');
+const pulse = document.getElementById('pulse');
+let debounceTimer = null;
+searchInput.addEventListener('input', () => {
+  pulse.classList.add('active');
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(runSearch, 120);
+});
+function runSearch(){ pulse.classList.remove('active'); render(); }
+
+// ---- FLIP animation helper ----
+function flipUpdate(container, updateFn){
+  const before = new Map();
+  [...container.children].forEach(el => { if(el.dataset.key) before.set(el.dataset.key, el.getBoundingClientRect()); });
+  updateFn();
+  [...container.children].forEach(el => {
+    const key = el.dataset.key;
+    if(!key) return;
+    const prev = before.get(key);
+    if(!prev){
+      el.style.opacity = 0;
+      requestAnimationFrame(() => { el.style.transition = 'opacity 320ms ease'; el.style.opacity = 1; });
+      return;
+    }
+    const now = el.getBoundingClientRect();
+    const dx = prev.left - now.left, dy = prev.top - now.top;
+    if(Math.abs(dx) > 0.5 || Math.abs(dy) > 0.5){
+      el.style.transition = 'none';
+      el.style.transform = `translate(${dx}px, ${dy}px)`;
+      requestAnimationFrame(() => {
+        el.style.transition = 'transform 460ms cubic-bezier(.2,.8,.2,1)';
+        el.style.transform = '';
+      });
+    }
+  });
+}
+
+const FEATURE_IMPORTANCE = [
+  ["text_match", 9506.5], ["rating", 6461.9], ["is_open", 3364.9], ["distance_km", 1362.2],
+  ["hour", 318.7], ["price_match", 308.4], ["num_ratings", 254.7], ["popularity", 0.0]
+];
+function renderFeatureImportance(){
+  const el = document.getElementById('fi-list');
+  const max = Math.max(...FEATURE_IMPORTANCE.map(f => f[1]));
+  el.innerHTML = FEATURE_IMPORTANCE.map(([name, val]) => `
+    <div class="fi-row">
+      <div class="fi-name">${name}</div>
+      <div class="fi-track"><div class="fi-fill" style="width:${(val/max*100).toFixed(1)}%"></div></div>
+      <div class="fi-val">${val.toFixed(0)}</div>
+    </div>`).join('');
+}
+
+function getRanked(){
+  const q = searchInput.value;
+  const day = todayAbbr;
+  const scored = RESTAURANTS.map(r => {
+    const dist = Math.sqrt(r.x*r.x + r.y*r.y);
+    const text_match = textMatchScore(q, r);
+    const open = isOpenAt(r.schedule, day, currentHour);
+    const popularity = Math.log1p(r.num_ratings);
+    const price_match = 1.0; // no price preference in this simplified UI
+    const feats = [text_match, dist, r.rating, r.num_ratings, popularity, open, price_match, currentHour];
+    const score = scoreRow(feats);
+    return {...r, dist, text_match, open, score};
+  });
+  scored.sort((a,b) => b.score - a.score);
+  return scored;
+}
+
+function renderMap(ranked){
+  const svg = document.getElementById('map-svg');
+  const W = 420, H = 420, cx = W/2, cy = H/2, scale = 130; // px per km (small real city radius)
+  let s = '';
+  for(let i=-2;i<=2;i++){
+    s += `<line class="grat-line" x1="${cx+i*scale}" y1="0" x2="${cx+i*scale}" y2="${H}"/>`;
+    s += `<line class="grat-line" x1="0" y1="${cy+i*scale}" x2="${W}" y2="${cy+i*scale}"/>`;
+  }
+  [0.5,1,1.5].forEach(km => { s += `<circle class="user-ring" cx="${cx}" cy="${cy}" r="${km*scale}"/>`; });
+  s += `<circle class="user-dot" cx="${cx}" cy="${cy}" r="5"/><text class="poi-label" x="${cx+8}" y="${cy-8}" fill="var(--teal)">you</text>`;
+
+  const topKeys = new Set(ranked.slice(0, 40).map(r => r.name));
+  ranked.forEach((r, i) => {
+    if(!topKeys.has(r.name)) return;
+    const px = cx + r.x*scale, py = cy - r.y*scale;
+    if(px < -20 || px > W+20 || py < -20 || py > H+20) return;
+    const rank = i+1;
+    const rr = rank===1 ? 9 : rank<=3 ? 7.5 : 5.5;
+    const color = !r.open ? 'var(--closed)' : rank===1 ? 'var(--brass)' : rank<=3 ? 'var(--teal)' : 'var(--muted)';
+    s += `<g class="pin-group" data-key="${r.name}">
+            <circle class="poi-dot" cx="${px}" cy="${py}" r="${rr}" fill="${color}" stroke="var(--bg-deep)" stroke-width="1.4">
+              <title>${r.name} — rank #${rank}, score ${r.score.toFixed(2)}</title>
+            </circle>
+            ${rank<=5 ? `<text class="rank-badge-map" x="${px}" y="${py+3}" text-anchor="middle">${rank}</text>` : ''}
+          </g>`;
+  });
+  svg.innerHTML = s;
+}
+
+function renderList(ranked){
+  const list = document.getElementById('result-list');
+  const shown = ranked.slice(0, 18);
+  if(!shown.length){
+    list.innerHTML = `<div class="empty-state">No matches. Try a broader search term.</div>`;
+    return;
+  }
+  const maxScore = Math.max(...shown.map(c=>c.score));
+  const minScore = Math.min(...shown.map(c=>c.score));
+  flipUpdate(list, () => {
+    list.innerHTML = shown.map((c, i) => {
+      const pct = Math.max(4, ((c.score - minScore) / (maxScore - minScore + 1e-6)) * 100);
+      return `
+      <div class="result-card ${c.open ? '' : 'closed'}" data-key="${c.name}">
+        <div class="rank-num">${i+1}</div>
+        <div class="rc-body">
+          <div class="rc-top">
+            <div class="rc-name">${c.name}</div>
+            <div class="rc-score">${c.score.toFixed(2)}</div>
+          </div>
+          <div class="rc-meta">
+            <span>${c.dist.toFixed(2)}km</span>
+            <span>${c.rating.toFixed(1)}★ (${c.num_ratings})</span>
+            <span>${'$'.repeat(c.price_level)}</span>
+            <span>${c.cuisines[0].replace(/_/g,' ')}</span>
+            ${c.open ? '<span>open</span>' : '<span class="closed-tag">closed</span>'}
+          </div>
+          <div class="score-bar-track"><div class="score-bar-fill" style="width:${pct}%"></div></div>
+        </div>
+      </div>`;
+    }).join('');
+  });
+}
+
+function render(){
+  const ranked = getRanked();
+  document.getElementById('map-count').textContent = `${RESTAURANTS.length} real restaurants`;
+  document.getElementById('result-count').textContent = `top ${Math.min(18, ranked.length)}`;
+  renderMap(ranked);
+  renderList(ranked);
+}
+
+renderFeatureImportance();
+render();
+</script>
+</body>
+</html>
